@@ -8,7 +8,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 # Setup base system
 ARG BUILD_ARCH=amd64
 ARG NDPI_VERSION="4.8-stable"
-ARG NTOP_VERSION="dev"
+ARG NTOP_VERSION="6.0-stable"
 ARG NETFLOW2NG_VERSION="v0.0.5"
 
 # Install prerequisities
