@@ -7,9 +7,9 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Setup base system
 ARG BUILD_ARCH=amd64
-ARG NDPI_VERSION="4.6-stable"
-ARG NTOP_VERSION="5.6-stable"
-ARG NETFLOW2NG_VERSION="v0.0.4"
+ARG NDPI_VERSION="4.8-stable"
+ARG NTOP_VERSION="dev"
+ARG NETFLOW2NG_VERSION="v0.0.5"
 
 # Install prerequisities
 RUN sed -i -e's/ main/ main contrib/g' /etc/apt/sources.list.d/debian.sources \
